@@ -44,17 +44,23 @@ text-align: center;
 position: fixed;
 /* position: absolute; */
 display: none;
-display: flex;
+
 align-self: center;
 z-index: 999;
 left: 50%;
 top:190px;
 transform: translate(-50%, -50%);
-
+background-color: #82b3eb;
 }
 #navbar-link li{
-    cursor: pointer;
     margin-top: 20px;
+    
+}
+#navbar-link a{
+    color: #151414;
+    cursor: pointer;
+   
+    text-decoration: none;
 }
 .header img {
 height: 50px;
@@ -312,6 +318,7 @@ margin-bottom: 20px;
 font-size: 36px;
 margin-bottom: 10px;
 }
+#nav
 
 .about p {
 font-size: 18px;
@@ -423,4 +430,7 @@ transform: translateY(-5px);
 .contact-link img {
 width: 50px;
 height: 50px;
+}
+#work img{
+    width: 100px;
 }
